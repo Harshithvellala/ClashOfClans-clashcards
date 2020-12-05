@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  border: 2px solid black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sliderContainer {
+  border: 2px solid red;
+  width: 80%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barbarianContainer {
+  border: 2px solid purple;
+  width: 30%;
+  height: 60vh;
+  position: relative;
+}
+
+.barbarian {
+  background-image: url(./barbarian-bg.jpg);
+  position: absolute;
+  /* left: -20%;
+  top: -10%; */
+}
